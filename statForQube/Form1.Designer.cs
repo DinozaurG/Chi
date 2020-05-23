@@ -28,10 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.numOfExp = new System.Windows.Forms.NumericUpDown();
             this.labelFor6 = new System.Windows.Forms.Label();
@@ -60,9 +63,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.prob1 = new System.Windows.Forms.NumericUpDown();
             this.chartForStat = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numOfExp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.prob2)).BeginInit();
@@ -110,6 +110,30 @@
             this.panel1.Size = new System.Drawing.Size(1151, 111);
             this.panel1.TabIndex = 0;
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(809, 72);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(0, 17);
+            this.label16.TabIndex = 35;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(809, 38);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(0, 17);
+            this.label15.TabIndex = 34;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(809, 5);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(0, 17);
+            this.label14.TabIndex = 33;
+            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -127,9 +151,19 @@
             0,
             0,
             0});
+            this.numOfExp.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numOfExp.Name = "numOfExp";
             this.numOfExp.Size = new System.Drawing.Size(91, 22);
             this.numOfExp.TabIndex = 31;
+            this.numOfExp.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // labelFor6
             // 
@@ -398,45 +432,21 @@
             // 
             // chartForStat
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chartForStat.ChartAreas.Add(chartArea4);
-            legend4.Name = "Legend1";
-            this.chartForStat.Legends.Add(legend4);
+            chartArea1.Name = "ChartArea1";
+            this.chartForStat.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chartForStat.Legends.Add(legend1);
             this.chartForStat.Location = new System.Drawing.Point(13, 131);
             this.chartForStat.Name = "chartForStat";
-            series4.ChartArea = "ChartArea1";
-            series4.IsValueShownAsLabel = true;
-            series4.LabelFormat = "f4";
-            series4.Legend = "Legend1";
-            series4.Name = "Series1";
-            this.chartForStat.Series.Add(series4);
+            series1.ChartArea = "ChartArea1";
+            series1.IsValueShownAsLabel = true;
+            series1.LabelFormat = "f4";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartForStat.Series.Add(series1);
             this.chartForStat.Size = new System.Drawing.Size(1151, 300);
             this.chartForStat.TabIndex = 1;
             this.chartForStat.Text = "chart1";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(809, 5);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(0, 17);
-            this.label14.TabIndex = 33;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(809, 38);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(0, 17);
-            this.label15.TabIndex = 34;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(809, 72);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(0, 17);
-            this.label16.TabIndex = 35;
             // 
             // Form1
             // 
