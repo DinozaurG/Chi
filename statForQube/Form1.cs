@@ -19,7 +19,7 @@ namespace statForQube
         private void buttonForAction_Click(object sender, EventArgs e)
         {
             double[] possibilites = new double[6];
-            int[] events = new int[6] { 0, 0, 0, 0, 0, 0 };
+            int[] events = new int[6] { 0, 0, 0, 0, 0, 0};
             String[] ans = new String[6];
             Random rnd = new Random();
             int i, a, N;
